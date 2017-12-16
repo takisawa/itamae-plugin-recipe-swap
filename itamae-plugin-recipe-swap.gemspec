@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Hiroaki Takisawa"]
   spec.email         = ["takisawa@hit-start.jp"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Itamae plugin to create Linux swap area.}
+  spec.description   = %q{Itamae plugin to create Linux swap area.}
+  spec.homepage      = "https://github.com/takisawa/itamae-plugin-recipe-swap"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
