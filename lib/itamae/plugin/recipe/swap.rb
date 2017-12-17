@@ -1,4 +1,6 @@
-require "itamae/plugin/recipe/swap/version"
+# frozen_string_literal: true
+
+require 'itamae/plugin/recipe/swap/version'
 
 module Itamae
   module Plugin

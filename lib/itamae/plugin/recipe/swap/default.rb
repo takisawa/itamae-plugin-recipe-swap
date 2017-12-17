@@ -4,7 +4,7 @@ node.reverse_merge!(
   swap: {
     path: '/swapfile',
     size: '512M'
-  },
+  }
 )
 
 swap_path = node[:swap][:path]
