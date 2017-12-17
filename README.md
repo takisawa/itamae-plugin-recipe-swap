@@ -1,8 +1,6 @@
 # Itamae::Plugin::Recipe::Swap
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/itamae/plugin/recipe/swap`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+[Itamae](https://github.com/itamae-kitchen/itamae) plugin to create Linux swap area.
 
 ## Installation
 
@@ -22,7 +20,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Recipe
+```ruby
+# recipe.rb
+
+# itamae v1.5.2 or later
+include_recipe "swap"
+
+# older
+include_recipe "swap::default"
+```
+
+### Node
+```yml
+# node.yml
+swap:
+  # path of swap file (default: /swapfile)
+  path: /swap_file
+
+  # swap size (default: 512M)
+  size: 2G
+```
 
 ## Development
 
@@ -32,7 +50,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/takisawa/itamae-plugin-recipe-swap .
+Bug reports and pull requests are welcome on GitHub at https://github.com/takisawa/itamae-plugin-recipe-swap.
 
 ## License
 
