@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    itamae-plugin-recipe-swap (0.1.0)
+    itamae-plugin-recipe-swap (0.0.1)
       itamae
 
 GEM
