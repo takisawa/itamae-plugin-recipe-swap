@@ -1,4 +1,4 @@
-# Itamae::Plugin::Recipe::Swap
+# Itamae::Plugin::Recipe::Swap [![Build Status](https://travis-ci.org/takisawa/itamae-plugin-recipe-swap.svg)](http://travis-ci.org/takisawa/itamae-plugin-recipe-swap)
 
 [Itamae](https://github.com/itamae-kitchen/itamae) plugin to create Linux swap area.
 
